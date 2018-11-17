@@ -20,7 +20,7 @@ ruleslist=None
 
 def read_train_data():
     global t
-    d=pd.ExcelFile("data\\mytech_data.xlsx")#,sheet_name="")  #to be changed
+    d=pd.ExcelFile("data\\data.xlsx")#,sheet_name="")  #to be changed
     # d.sheet_names
     du=d.parse('User_Queries')
     # du=d.parse('tbl_UserLog')
