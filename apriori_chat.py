@@ -5,9 +5,6 @@
 # Usage	 : apriori_chat.py "CurrentIntentName"
 #          apriori_chat.py --retrain : It will generate apri.pkl training model.
 # How	: It uses apriori assiciation rule mining based on historical user name and user intents. On every run the pickle file is loaded in memory and results are returned
-#	KNOWN BUGS AND PENDING ITEMS: 
-#		1. read from database to generate training data. Now it is reading from an excel file. read_train_data() def to be modified
-#		2. --retrain should generate pkl file. Not happening now when tested on 5Nov2018
 #################################################################################################################
 
 t=["system slow,outlook not working,unexpected reboot".split(","), "system not compliant,system slow,IE not working".split(","), "outlook not working,system slow,IE not working".split(","),
