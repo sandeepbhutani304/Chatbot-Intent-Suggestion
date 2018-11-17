@@ -87,7 +87,7 @@ else:
 #print(current_intent)
 
 #read_train_data()
-train_apriori(t)
+#train_apriori(t)  #uncomment this line when you have actual data. For now hardcoded data in variable t is being used
 #l=get_next_intent_suggestion("Project SPOC")
 l=get_next_intent_suggestion(current_intent)
 print(l)
